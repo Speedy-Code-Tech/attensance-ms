@@ -1,0 +1,5 @@
+/* Add this style to your CSS file */
+.consecutive-absent {
+    background-color: #ff8e8e !important; /* Red background color */
+    color: #ffffff; /* White text color to make the text visible on the red background */
+}

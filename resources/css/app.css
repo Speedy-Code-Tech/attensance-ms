@@ -1,0 +1,28 @@
+.profile-picture-container {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-picture-container img {
+    display: block;
+    width: 100px; /* Set the desired width for the square profile picture */
+    height: 100px; /* Set the desired height for the square profile picture */
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.profile-picture-container p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.profile-picture-container input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
